@@ -15,7 +15,7 @@ namespace Tyuiu.DolgushinVA.Sprint3.Task0.V3.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                sumSeries += ((Math.Sin(i)) * 0.25);
+                sumSeries += ((Math.Sin(i)) * Math.Pow((1.0 / 2.0), 2));
             }
             return Math.Round(sumSeries, 3);
         }
